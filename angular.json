@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angularTryout": {
+    "WebStore": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angularTryout:build:production"
+              "browserTarget": "WebStore:build:production"
             },
             "development": {
-              "browserTarget": "angularTryout:build:development"
+              "browserTarget": "WebStore:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angularTryout:build"
+            "browserTarget": "WebStore:build"
           }
         },
         "test": {
